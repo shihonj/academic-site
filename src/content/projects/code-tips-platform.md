@@ -1,7 +1,7 @@
 ---
 title: "Gauge/Gravity Duality"
 description: "Gauge/gravity duality reveals a deep relation between quantum information and spacetime geometry. In modern perspectives, holography is not merely a duality but an information-encoding mechanism: the entanglement structure, operator dynamics, and complexity of the boundary theory collectively give rise to bulk geometry and gravitational dynamics. Gravity emerges as an organizational pattern of quantum information, while causal structure reflects constraints on information flow."
-image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@latest/public/images/adscft.png?v=2"
+image: "https://cdn.jsdelivr.net/gh/shihonj/shihonj.github.io@latest/public/images/adscft.png?v=2"
 startDate: "2024-01-01"
 skills: ["ER=EPR", "Holography", "Entanglement Geometry", "Bulk Reconstruction"]
 ---

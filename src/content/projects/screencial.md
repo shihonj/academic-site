@@ -1,7 +1,7 @@
 ---
 title: "Quantum Chaos"
 description: "Quantum chaos captures how information spreads and becomes complex under unitary dynamics. It links operator growth, entanglement propagation, and thermalization, showing how quantum systems exhibit statistical irreversibility despite exact information conservation. Recent developments treat chaos as a universal language of gravitational and black-hole dynamics, with frameworks such as Krylov complexity, operator spectra, and random matrix theory reshaping our understanding of quantum irreversibility."
-image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@latest/public/images/chaos.png"
+image: "https://cdn.jsdelivr.net/gh/shihonj/shihonj.github.io@latest/public/images/chaos.png"
 startDate: "2024-01-01"
 skills: ["Scrambling", "Scar", "Quantum Thermalization", "Operator Growth"]
 ---

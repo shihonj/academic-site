@@ -1,7 +1,7 @@
 ---
 title: "Quantum Reference Frame"
 description: "Quantum reference frames explore how physical descriptions change when the reference frame itself is treated as a quantum system. This framework abandons the assumption of an absolute classical observer and studies the transformation of physical laws between quantum observers. From this perspective, states, entanglement, and even spacetime structure become relational notions, defined through information exchange. In contexts such as quantum gravity and holography, transformations between quantum reference frames may hold the key to understanding observer-dependent geometry and the reconstruction of information in spacetime."
-image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@main/public/images/qrf.png"
+image: "https://cdn.jsdelivr.net/gh/shihonj/shihonj.github.io@main/public/images/qrf.png"
 startDate: "2024-01-01"
 skills: ["Relational Quantum Mechanics", "Symmetry and Covariance"]
 ---

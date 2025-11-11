@@ -1,7 +1,7 @@
 ---
 title: "Quantum Complexity"
 description: "Quantum complexity quantifies how the structure of information grows under time evolution. Beyond entropy, it tracks the geometric expansion and encoding depth of operators and states in Hilbert space. Its persistent growth after equilibrium signals a long-time structure of quantum dynamics. Modern views connect complexity to operator growth, Krylov dynamics, and holographic geometry, suggesting it may form the fundamental bridge between spacetime dynamics and information theory."
-image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@main/public/images/complexity.png"
+image: "https://cdn.jsdelivr.net/gh/shihonj/shihonj.github.io@main/public/images/complexity.png"
 startDate: "2024-01-01"
 skills: ["CV", "CA", "C=Anything", "Information Geometry"]
 ---

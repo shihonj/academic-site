@@ -1,10 +1,9 @@
 ---
-title: "Code Tips Platform"
-description: "A centralized platform for storing and sharing code snippets, enabling developers to create, discover, and manage code examples across 100+ programming languages."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Jocelyn"
-startDate: "2025-06-01"
-skills: ["Laravel", "Inertia JS", "Vue 3", "TypeScript", "Monaco Editor", "Tailwind CSS"]
-demoLink: "https://codetips.cloud"
+title: "Gauge/Gravity Duality"
+description: "Gauge/gravity duality reveals a deep relation between quantum information and spacetime geometry. In modern perspectives, holography is not merely a duality but an information-encoding mechanism: the entanglement structure, operator dynamics, and complexity of the boundary theory collectively give rise to bulk geometry and gravitational dynamics. Gravity emerges as an organizational pattern of quantum information, while causal structure reflects constraints on information flow."
+image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@latest/public/images/adscft.png?v=2"
+startDate: "2024-01-01"
+skills: ["ER=EPR", "Holography", "Entanglement Geometry", "Bulk Reconstruction"]
 ---
 
 ## About Code Tips

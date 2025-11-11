@@ -13,8 +13,11 @@ import { Code } from "astro:components";
  */
 export interface SocialLinks {
   inspirehep?: string;
+  inspirehepIcon?: string;  // URL to online icon image
   googleScholar?: string;
+  googleScholarIcon?: string;  // URL to online icon image
   orcid?: string;
+  orcidIcon?: string;  // URL to online icon image
 }
 
 /**
@@ -100,8 +103,11 @@ export const siteConfig: SiteConfig = {
   email: "hello@example.com",
   socialLinks: {
     inspirehep: "https://inspirehep.net/authors/2789135?ui-citation-summary=true",
+    inspirehepIcon: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@main/public/images/hep.png",  
     googleScholar: "https://scholar.google.com/citations?user=wH0qsr0AAAAJ&hl=en",
+    googleScholarIcon: "https://cdn.simpleicons.org/googlescholar/4285F4", 
     orcid: "https://orcid.org/0009-0007-0954-7749",
+    orcidIcon: "https://orcid.org/assets/vectors/orcid.logo.icon.svg",  
   },
   enableThemeSelector: true,
   extraLinks: {

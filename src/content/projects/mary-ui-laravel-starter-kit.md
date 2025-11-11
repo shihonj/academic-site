@@ -1,11 +1,9 @@
 ---
-title: "Mary UI Laravel Starter Kit"
-description: "A contemporary, production-ready Laravel starter kit with integrated Livewire Volt and Mary UI components. Designed to expedite web application development with pre-built authentication, user administration, and developer-friendly tooling."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Alexander"
-startDate: "2024-12-07"
-skills: ["Laravel", "Livewire", "Mary UI", "DaisyUI", "Tailwind CSS", "Pest"]
-sourceLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
-demoLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
+title: "Quantum Reference Frame"
+description: "Quantum reference frames explore how physical descriptions change when the reference frame itself is treated as a quantum system. This framework abandons the assumption of an absolute classical observer and studies the transformation of physical laws between quantum observers. From this perspective, states, entanglement, and even spacetime structure become relational notions, defined through information exchange. In contexts such as quantum gravity and holography, transformations between quantum reference frames may hold the key to understanding observer-dependent geometry and the reconstruction of information in spacetime."
+image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@main/public/images/qrf.png"
+startDate: "2024-01-01"
+skills: ["Relational Quantum Mechanics", "Symmetry and Covariance"]
 ---
 
 ## Project Overview

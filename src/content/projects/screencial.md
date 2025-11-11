@@ -1,11 +1,9 @@
 ---
-title: "Screencial"
-description: "A web application enabling users to generate personalized, shareable screenshots for social media with customizable templates and design elements."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Jocelyn"
-startDate: "2023-07-01"
-endDate: "2024-06-31"
-skills: ["Laravel", "Livewire", "Stripe", "Tailwind CSS"]
-demoLink: "https://screencial.art"
+title: "Quantum Chaos"
+description: "Quantum chaos captures how information spreads and becomes complex under unitary dynamics. It links operator growth, entanglement propagation, and thermalization, showing how quantum systems exhibit statistical irreversibility despite exact information conservation. Recent developments treat chaos as a universal language of gravitational and black-hole dynamics, with frameworks such as Krylov complexity, operator spectra, and random matrix theory reshaping our understanding of quantum irreversibility."
+image: "https://cdn.jsdelivr.net/gh/shihonj/academic-site@latest/public/images/chaos.png"
+startDate: "2024-01-01"
+skills: ["Scrambling", "Scar", "Quantum Thermalization", "Operator Growth"]
 ---
 
 ## Overview

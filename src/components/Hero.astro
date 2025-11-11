@@ -3,7 +3,7 @@ interface Props {
   name: string;
   title: string;
   description: string;
-  avatar: string;
+  avatar: string;  // 注意：这里明确写 string
   location?: string;
   socialLinks?: {
     inspirehep?: string;
@@ -24,16 +24,18 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
       <div
         class="w-48 ring-primary ring-offset-base-100 rounded-full ring-2 ring-offset-2 overflow-hidden"
       >
-        <img 
-          src={avatar} 
-          alt={name} 
+        <img
+          src={avatar}
+          alt={name}
           class="w-full h-full object-cover"
           loading="lazy"
         />
       </div>
     </div>
     <div class="max-w-2xl">
-      <h1 class="text-5xl font-bold mb-4">Hi, I'm {name}</h1>
+      <h1 class="text-5xl font-bold mb-4">
+        Hi, I'm {name}
+      </h1>
       <p class="text-xl text-base-content/80 mb-2">{title}</p>
       {location && <p class="text-base-content/60 mb-4">{location}</p>}
       <p class="text-lg leading-relaxed mb-6" set:html={description}></p>
@@ -49,8 +51,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                 aria-label="INSPIRE-HEP"
               >
                 {socialLinks.inspirehepIcon ? (
-                  <img 
-                    src={socialLinks.inspirehepIcon} 
+                  <img
+                    src={socialLinks.inspirehepIcon}
                     alt="INSPIRE-HEP"
                     class="w-6 h-6 object-contain"
                   />
@@ -68,8 +70,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                 aria-label="Google Scholar"
               >
                 {socialLinks.googleScholarIcon ? (
-                  <img 
-                    src={socialLinks.googleScholarIcon} 
+                  <img
+                    src={socialLinks.googleScholarIcon}
                     alt="Google Scholar"
                     class="w-6 h-6 object-contain"
                   />
@@ -87,8 +89,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                 aria-label="ORCID"
               >
                 {socialLinks.orcidIcon ? (
-                  <img 
-                    src={socialLinks.orcidIcon} 
+                  <img
+                    src={socialLinks.orcidIcon}
                     alt="ORCID"
                     class="w-6 h-6 object-contain"
                   />

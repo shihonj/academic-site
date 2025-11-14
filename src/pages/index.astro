@@ -11,7 +11,7 @@ import { Briefcase, GraduationCap } from "@lucide/astro";
 import { getEntry, render } from "astro:content";
 import { siteConfig } from "../config";
 
-
+// 从 content collections 中读取 About 内容
 const aboutEntry = await getEntry("about", "about");
 const { Content: AboutContent } = await render(aboutEntry);
 ---
@@ -21,30 +21,31 @@ const { Content: AboutContent } = await render(aboutEntry);
   description={siteConfig.description}
 >
   <main>
-    <!-- Hero Section (Always visible) -->
+    <!-- Hero Section（永远显示） -->
     <Hero
       name={siteConfig.name}
       title={siteConfig.title}
       description={siteConfig.description}
-      avatar={siteConfig.avatar}   <!-- ✅ 改为直接传字符串 -->
+      avatar={siteConfig.avatar}
       location={siteConfig.location}
       socialLinks={siteConfig.socialLinks}
     />
 
     <!-- About Section -->
-    {
-      siteConfig.sections.about && (
-        <About
-          title={aboutEntry.data.title}
-          photo={aboutEntry.data.photo}
-          Content={AboutContent}
-        />
-      )
-    }
+    {siteConfig.sections.about && (
+      <About
+        title={aboutEntry.data.title}
+        Content={AboutContent}
+      />
+    )}
 
+    <!-- Projects / Research Section -->
     {siteConfig.sections.projects && <Projects />}
+
+    <!-- Blog Section -->
     {siteConfig.sections.blog && <Blog />}
 
+    <!-- Work Experience Section -->
     {siteConfig.sections.work && (
       <Timeline
         collection="work"
@@ -55,10 +56,11 @@ const { Content: AboutContent } = await render(aboutEntry);
       />
     )}
 
+    <!-- Education Section -->
     {siteConfig.sections.education && (
       <Timeline
         collection="education"
-        variant="list"
+        variant="cards"
         color="secondary"
         backgroundColor="base-300"
         icon={GraduationCap}
@@ -66,7 +68,10 @@ const { Content: AboutContent } = await render(aboutEntry);
       />
     )}
 
+    <!-- Hackathons Section -->
     {siteConfig.sections.hackathons && <Hackathons />}
+
+    <!-- Contact Section -->
     {siteConfig.sections.contact && <Contact />}
   </main>
 </Layout>
